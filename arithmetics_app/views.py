@@ -4,7 +4,7 @@ import json
 
 def home(request):
     # this data comes as bytestring
-    # that is why we havte decode to string
+    # that is why we have to decode to string
     byte = request.body
     # this decote bytestring do string
     text = byte.decode()
